@@ -1,0 +1,26 @@
+.navbar-mine {
+  justify-content: space-between;
+  background: white;
+  position: sticky;
+  z-index: 1000;
+  width: 100%;
+
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-lewagon .navbar-brand img {
+  width: 275px;
+}
+.navbar-logo{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 7px;
+}
+.nav-link{
+  color: #CA3231;
+}

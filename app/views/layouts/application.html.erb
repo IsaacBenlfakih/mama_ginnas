@@ -10,7 +10,8 @@
     <%= javascript_importmap_tags %>
   </head>
 
-  <body>
-    <%= yield %>
+  <body><%= render "shared/navbar" %>
+  
+    <div class="app-container" style="overflow-x: hidden;"><%= yield %></div>
   </body>
 </html>
