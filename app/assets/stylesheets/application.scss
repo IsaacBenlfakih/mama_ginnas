@@ -1,7 +1,7 @@
 
 .app-container{
   min-height: 100vh;
-  margin-top: 25px;
+  background-color: #Ffffff
 }
 // Graphical variables
 @import "config/fonts";
@@ -15,3 +15,4 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+@import "pages/home";

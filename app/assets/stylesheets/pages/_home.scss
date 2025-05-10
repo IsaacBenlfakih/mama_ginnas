@@ -1,1 +1,48 @@
 // Specific CSS for your home-page
+#menu-btn{
+  width: 400px;
+  height: 125px;
+  border-width: 2px;
+  border-color: #E71D11;
+  padding: 0;
+  font-weight: bold;
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-size: 24px;
+  letter-spacing: 5px;
+}
+#menu-btn:hover{
+  color: white;
+}
+.button1{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.layout{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.info{
+  margin-left: 175px;
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-size: 22px;
+  padding-top: 45px;
+  max-width: 40%;
+}
+.image1 img{
+  height: 450px;
+  margin-right: 200px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 4px rgba($color: #000000, $alpha: .4);
+}
